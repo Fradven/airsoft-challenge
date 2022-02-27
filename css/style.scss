@@ -2,3 +2,28 @@
 @import './var';
 @import './header';
 @import './main';
+@import './footer';
+
+.logo-title {
+        display: flex;
+        align-items: center;
+        width: 228px;
+        margin: auto;
+        padding-top: 15px;
+        display: flex;
+
+    &__logo-ctn{
+        width: 50px;
+    }
+
+    &__logo-nav {
+        width: 100%;
+    }
+
+    &__title {
+        font-size: 1.4rem;
+        text-transform: uppercase;
+        color: $fontColour;
+    }
+
+}

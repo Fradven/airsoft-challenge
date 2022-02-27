@@ -1,0 +1,26 @@
+footer {
+    background-color: $background;
+
+    .footer {
+        padding-top: 28px;
+        padding-bottom: 70px;
+
+        &__links{
+            padding-top: 24px;
+            text-align: center;
+            a {
+                text-decoration: none;
+
+                span {padding: 0 12px;}
+            }
+        }
+
+        &__vie-privée {
+            color: $footer;
+        }
+
+        &__fb-links {
+            color: $gold;
+        }
+    }
+}
