@@ -57,41 +57,38 @@ header .header {
   background-size: cover;
 }
 
+@media screen and (min-width: 1024px) {
+  header .header .navbar {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+}
+
 header .header .navbar a {
   color: #FCFCFC;
   text-decoration: none;
   text-transform: uppercase;
 }
 
-header .header .navbar__logo-title {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  width: 228px;
-  margin: auto;
-  padding-top: 15px;
-  display: flex;
-}
-
-header .header .navbar__logo-ctn {
-  width: 50px;
-}
-
-header .header .navbar__logo-nav {
-  width: 100%;
-}
-
-header .header .navbar__title {
-  font-size: 1.4rem;
-  text-transform: uppercase;
-  color: #FCFCFC;
-}
-
 header .header .navbar__links {
   text-align: center;
+}
+
+@media screen and (min-width: 1024px) {
+  header .header .navbar__links {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    font-size: 0.7rem;
+  }
+  header .header .navbar__links li {
+    width: 80px;
+    padding: 8px 0;
+  }
 }
 
 header .header .navbar__links li {
@@ -107,6 +104,13 @@ header .header .navbar__link-presentation {
 
 header .header .navbar__link-presentation a {
   color: #ae9553;
+}
+
+@media screen and (min-width: 1024px) {
+  header .header .navbar__link-presentation {
+    width: 120px;
+    padding: 8px 0;
+  }
 }
 
 header .header .navbar__link-facebook {
@@ -162,11 +166,20 @@ header .header .main-content__title-slogan h5 span {
   color: #ae9553;
 }
 
-main {
+.main {
   width: 100%;
 }
 
-main .airsoft-img {
+@media screen and (min-width: 769px) {
+  .main {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (1fr)[2];
+        grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+.main .airsoft-img {
   width: 100%;
   height: 45vh;
   background-image: url("../assets/images/airsoft-3897707_1920.png");
@@ -174,7 +187,14 @@ main .airsoft-img {
   background-size: cover;
 }
 
-main .description {
+@media screen and (min-width: 769px) {
+  .main .airsoft-img {
+    height: auto;
+    background-size: 160%;
+  }
+}
+
+.main .description {
   width: 100%;
   padding-bottom: 30px;
   background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(49, 60, 64, 0.5)), to(rgba(49, 60, 64, 0.5))), url("../assets/images/overlay2.png");
@@ -183,7 +203,7 @@ main .description {
   background-size: cover;
 }
 
-main .description__title {
+.main .description__title {
   width: 244px;
   margin: auto;
   padding-top: 15px;
@@ -195,19 +215,19 @@ main .description__title {
   color: #FCFCFC;
 }
 
-main .description h3 {
+.main .description h3 {
   padding: 0 10px;
 }
 
-main .description__wings {
+.main .description__wings {
   width: 29px;
 }
 
-main .description__wings img {
+.main .description__wings img {
   width: 100%;
 }
 
-main .description__text {
+.main .description__text {
   padding-top: 18px;
   width: 87%;
   margin: auto;
@@ -215,7 +235,13 @@ main .description__text {
   font-size: 0.8rem;
 }
 
-main .description__text span {
+@media screen and (min-width: 1024px) {
+  .main .description__text {
+    font-size: 1.2rem;
+  }
+}
+
+.main .description__text span {
   color: #ae9553;
 }
 

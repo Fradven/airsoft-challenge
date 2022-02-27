@@ -7,36 +7,29 @@ header{
 
         .navbar {
 
+            @media screen and (min-width: 1024px) {
+                display: flex;   
+                justify-content: space-between;
+            }
+
             a {
                 color: $fontColour;
                 text-decoration: none;
                 text-transform: uppercase;
             }
     
-            &__logo-title {
-                display: flex;
-                align-items: center;
-                width: 228px;
-                margin: auto;
-                padding-top: 15px;
-                display: flex;
-            }
-    
-            &__logo-ctn{
-                width: 50px;
-            }
-    
-            &__logo-nav {
-                width: 100%;
-            }
-    
-            &__title {
-                font-size: 1.4rem;
-                text-transform: uppercase;
-                color: $fontColour;
-            }
-    
             &__links {
+
+                @media screen and (min-width: 1024px) {
+                    display: flex;   
+                    font-size: 0.7rem;
+
+                    li {
+                        width: 80px;
+                        padding: 8px 0;
+                    }
+                }
+                
                 text-align: center;
     
                 li{
@@ -51,6 +44,11 @@ header{
                 border: 1px solid $gold;
                 a {
                     color: $gold;
+                }
+
+                @media screen and (min-width: 1024px) {
+                    width: 120px;
+                    padding: 8px 0;
                 }
             }
     

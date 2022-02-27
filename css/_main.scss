@@ -1,4 +1,8 @@
-main {
+.main {
+    @media screen and (min-width: 769px) {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
     width: 100%;
     .airsoft-img {
         width: 100%;
@@ -6,6 +10,11 @@ main {
         background-image: url('../assets/images/airsoft-3897707_1920.png');
         background-position: center;
         background-size: cover;
+
+        @media screen and (min-width: 769px) {
+            height: auto;
+            background-size: 160%;
+        }
     }
 
     .description {
@@ -16,6 +25,7 @@ main {
             url('../assets/images/overlay2.png');
         background-position: center;
         background-size: cover;
+        
         
         &__title{
             width: 244px;
@@ -44,6 +54,10 @@ main {
             margin: auto;
             color: $fontColour;
             font-size: 0.8rem;
+
+            @media screen and (min-width: 1024px) {
+                font-size: 1.2rem;
+            }
 
             span {
                 color: $gold;
