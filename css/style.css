@@ -1,0 +1,220 @@
+*, *:before, *:after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+html, body, div, span, object, iframe, figure, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, code, em, img, small, strike, strong, sub, sup, tt, b, u, i, ol, ul, li, fieldset, form, label, table, caption, tbody, tfoot, thead, tr, th, td, main, canvas, embed, footer, header, nav, section, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-size-adjust: none;
+  -moz-text-size-adjust: none;
+  -ms-text-size-adjust: none;
+  text-size-adjust: none;
+}
+
+footer, header, nav, section, main {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after, q:before, q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+input {
+  -webkit-appearance: none;
+  border-radius: 0;
+}
+header .header {
+  width: 100%;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url("../assets/images/team.png");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../assets/images/team.png");
+  background-position: center;
+  background-size: cover;
+}
+
+header .header .navbar a {
+  color: #FCFCFC;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+header .header .navbar__logo-title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 228px;
+  margin: auto;
+  padding-top: 15px;
+  display: flex;
+}
+
+header .header .navbar__logo-ctn {
+  width: 50px;
+}
+
+header .header .navbar__logo-nav {
+  width: 100%;
+}
+
+header .header .navbar__title {
+  font-size: 1.4rem;
+  text-transform: uppercase;
+  color: #FCFCFC;
+}
+
+header .header .navbar__links {
+  text-align: center;
+}
+
+header .header .navbar__links li {
+  margin-top: 10px;
+}
+
+header .header .navbar__link-presentation {
+  margin: auto;
+  width: 180px;
+  padding: 10px 0;
+  border: 1px solid #ae9553;
+}
+
+header .header .navbar__link-presentation a {
+  color: #ae9553;
+}
+
+header .header .navbar__link-facebook {
+  margin: auto;
+  width: 20px;
+  border: 1px solid #ae9553;
+  border-radius: 50%;
+}
+
+header .header .navbar__link-facebook a {
+  width: 100%;
+}
+
+header .header .navbar__link-facebook a img {
+  width: 5px;
+}
+
+header .header .main-content {
+  padding-top: 30px;
+  padding-bottom: 27px;
+}
+
+header .header .main-content__logo-ctn {
+  margin: auto;
+  width: 95px;
+}
+
+header .header .main-content__logo-ctn img {
+  width: 100%;
+}
+
+header .header .main-content__title-slogan {
+  margin: auto;
+  width: 300px;
+  padding-top: 23px;
+  text-align: center;
+  color: #FCFCFC;
+}
+
+header .header .main-content__title-slogan h1 {
+  text-transform: uppercase;
+  font-size: 2.6rem;
+}
+
+header .header .main-content__title-slogan h5 {
+  margin: auto;
+  margin-top: 12px;
+  width: 253px;
+  background-color: #23262b;
+}
+
+header .header .main-content__title-slogan h5 span {
+  color: #ae9553;
+}
+
+main {
+  width: 100%;
+}
+
+main .airsoft-img {
+  width: 100%;
+  height: 45vh;
+  background-image: url("../assets/images/airsoft-3897707_1920.png");
+  background-position: center;
+  background-size: cover;
+}
+
+main .description {
+  width: 100%;
+  padding-bottom: 30px;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(49, 60, 64, 0.5)), to(rgba(49, 60, 64, 0.5))), url("../assets/images/overlay2.png");
+  background-image: linear-gradient(rgba(49, 60, 64, 0.5), rgba(49, 60, 64, 0.5)), url("../assets/images/overlay2.png");
+  background-position: center;
+  background-size: cover;
+}
+
+main .description__title {
+  width: 244px;
+  margin: auto;
+  padding-top: 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 1.1rem;
+  text-transform: uppercase;
+  color: #FCFCFC;
+}
+
+main .description h3 {
+  padding: 0 10px;
+}
+
+main .description__wings {
+  width: 29px;
+}
+
+main .description__wings img {
+  width: 100%;
+}
+
+main .description__text {
+  padding-top: 18px;
+  width: 87%;
+  margin: auto;
+  color: #FCFCFC;
+  font-size: 0.8rem;
+}
+
+main .description__text span {
+  color: #ae9553;
+}
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,112 @@
+header{
+    .header {
+        width: 100%;
+        background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('../assets/images/team.png');
+        background-position: center;
+        background-size: cover;
+
+        .navbar {
+
+            a {
+                color: $fontColour;
+                text-decoration: none;
+                text-transform: uppercase;
+            }
+    
+            &__logo-title {
+                display: flex;
+                align-items: center;
+                width: 228px;
+                margin: auto;
+                padding-top: 15px;
+                display: flex;
+            }
+    
+            &__logo-ctn{
+                width: 50px;
+            }
+    
+            &__logo-nav {
+                width: 100%;
+            }
+    
+            &__title {
+                font-size: 1.4rem;
+                text-transform: uppercase;
+                color: $fontColour;
+            }
+    
+            &__links {
+                text-align: center;
+    
+                li{
+                    margin-top: 10px;
+                }
+            }
+    
+            &__link-presentation {
+                margin: auto;
+                width: 180px;
+                padding: 10px 0;
+                border: 1px solid $gold;
+                a {
+                    color: $gold;
+                }
+            }
+    
+            &__link-facebook {
+                margin: auto;
+                width: 20px;
+                border: 1px solid $gold;
+                border-radius: 50%;
+    
+                a {
+                    width: 100%;
+    
+                    img {
+                        width: 5px;
+                    }
+                }
+            }
+        }
+
+        .main-content {
+            padding-top: 30px;
+            padding-bottom: 27px;
+
+            &__logo-ctn {
+                margin: auto;
+                width: 95px;
+
+                img {
+                    width: 100%;
+                }
+            }
+
+            &__title-slogan {
+                margin: auto;
+                width: 300px;
+                padding-top: 23px;
+                text-align: center;
+                color: $fontColour;
+
+                h1 {
+                    text-transform: uppercase;
+                    font-size: 2.6rem;
+                }
+
+                h5 {
+                    margin: auto;
+                    margin-top: 12px;
+                    width: 253px;
+                    background-color: $background;
+                    span {
+                        color: $gold;
+                    }
+                }
+            }
+
+        }
+    }
+    
+}
